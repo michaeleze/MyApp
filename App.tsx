@@ -9,6 +9,8 @@ import utilities from './tailwind.json';
 
 const { Screen, Navigator } = createBottomTabNavigator();
 
+const hello = "Hello World";
+
 const styles = StyleSheet.create({
   container: {
     flex: 1,
